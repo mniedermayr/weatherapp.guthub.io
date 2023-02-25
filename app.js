@@ -70,30 +70,35 @@ const favBookmarks = document.createElement("div");
 body.appendChild(favBookmarks);
 favBookmarks.className = "favorite-bookmarks";
 favBookmarks.style.display = "none";
+
 const placeholder1 = document.createElement("div");
 placeholder1.innerHTML = placeholder;
 placeholder1.style.display = "flex";
 placeholder1.style.width = "100%";
 placeholder1.style.height = "100%";
 favBookmarks.appendChild(placeholder1);
+
 const placeholder2 = document.createElement("div");
 placeholder2.innerHTML = placeholder;
 placeholder2.style.display = "flex";
 placeholder2.style.width = "100%";
 placeholder2.style.height = "100%";
 favBookmarks.appendChild(placeholder2);
+
 const placeholder3 = document.createElement("div");
 placeholder3.innerHTML = placeholder;
 placeholder3.style.display = "flex";
 placeholder3.style.width = "100%";
 placeholder3.style.height = "100%";
 favBookmarks.appendChild(placeholder3);
+
 const placeholder4 = document.createElement("div");
 placeholder4.innerHTML = placeholder;
 placeholder4.style.display = "flex";
 placeholder4.style.width = "100%";
 placeholder4.style.height = "100%";
 favBookmarks.appendChild(placeholder4);
+
 const placeholder5 = document.createElement("div");
 placeholder5.innerHTML = placeholder;
 placeholder5.style.display = "flex";
